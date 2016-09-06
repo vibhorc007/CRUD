@@ -1,0 +1,72 @@
+
+
+div#popupinsert {
+position:absolute;
+left:50%;
+top:17%;
+margin-left:-202px;
+font-family:'Raleway',sans-serif
+}
+
+#poping{
+max-width:300px;
+min-width:250px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:#fff;
+    margin-left:270px;
+     
+                background-size:600px;
+                background-color: #f4f4f4;
+                color: #5a5656;
+                font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                line-height: 1.5em;
+}
+input[type=text] {
+width:82%;
+padding:10px;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway;
+margin-left: 19px;
+}
+input[type=number] {
+width:82%;
+padding:10px;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway;
+margin-left: 19px;
+}
+
+#submit2 {
+text-decoration:none;
+width:120%;
+text-align:center;
+display:block;
+background-color:#00cc00;
+color:#fff;
+border:1px solid #00cc00;
+padding:10px 0;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+    margin-top:40px;
+    margin-left:-17px;
+}
+
+h2 {
+padding:10px 35px;
+margin:-10px -50px;
+text-align:center;
+border-radius:10px 10px 0 0;
+color:red;
+}
+
