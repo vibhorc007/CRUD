@@ -1,0 +1,68 @@
+#css for icon on image on edit profile and upload mark
+.colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.recent-work-wrap {
+    position: relative;
+}
+.recent-work-wrap .overlay {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 0;
+    color: transparent;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    transition: opacity 500ms ease 0s;
+    vertical-align: middle;
+    width: 100%;
+}
+.recent-work-wrap .overlay .preview {
+    bottom: 0;
+    display: inline-block;
+    height: 35px;
+    line-height: 350px;
+    border-radius: 0;
+    background: transparent;
+    text-align: center;
+    color: #fff;
+}
+.recent-work-wrap:hover .overlay {
+    opacity: 1;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 159px;
+    right: 53px;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    cursor: pointer;
+    opacity:0;
+    filter: alpha(opacity=0);
+}
+.fileUpload input.upload1 {
+  
+    top: 100px;
+    right: 780px;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    cursor: pointer;
+    opacity:0;
+   
+}
+
+
+
